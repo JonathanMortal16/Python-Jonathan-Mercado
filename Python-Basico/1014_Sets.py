@@ -1,5 +1,5 @@
 #los sets no se modifican
-set_personajes = {"Luffy","Zoro","Sanji","Choper","Naruto","Luffy","Goku"}#los imprime aleatoriamente, si el valor esta duplicado solo lo muestra una vez
+set_personajes = {"Luffy","Zoro","Sanji","Choper","Naruto","Luffy","Goku"}  #los imprime aleatoriamente, si el valor esta duplicado solo lo muestra una vez
 print(f"Algunos de los personajes de one piece son:{set_personajes}")
 
 set_personajes.add("Nami")  #agrega un valor
