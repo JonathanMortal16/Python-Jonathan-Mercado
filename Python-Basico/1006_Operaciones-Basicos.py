@@ -1,12 +1,13 @@
 # [Reputacion del jugador]
-reputacion_p = 100      #reputacion positiva
-reputacion_n = 20       #reputacion negativa
-ayuda = 3               #gente que haz ayudado
-experiencia_mt = 1634   #experiencia que puedes recibir por mision
-compañeros_t = 155      #compañeros totales
-coste_p = 1555          #coste del producto
-asesinatos_gi = 2       #asesinatos a gente inocente 
-años = 4                #años trascurridos
+reputacion_p = 100                          #reputacion positiva
+reputacion_n = 20                           #reputacion negativa
+ayuda = 3                                   #gente que haz ayudado
+experiencia_mt = 1634                       #experiencia que puedes recibir por mision
+compañeros_t = 155                          #compañeros totales
+coste_p = 1555                              #coste del producto
+asesinatos_gi = 2                           #asesinatos a gente inocente 
+años = 4                                    #años trascurridos
+limite_r = 16_341_634_163_416.1_634_163     #limite de reputacion
 
 # [Operaciones]
 # *suma*
@@ -42,3 +43,6 @@ print("haz matado a dos inocentes, tu reputacion negativa a subido a:", reputaci
 # *operacion compleja*
 puntaje_f= (reputacion_p-(reputacion_n+asesinatos_gi)) * ((compañeros_j/ayuda)**años) #puntuaje final
 print("Tu puntuaje final es de:", puntaje_f)
+
+# *numero largo*
+print("El limite de reputacion en el juego es de:",limite_r)
