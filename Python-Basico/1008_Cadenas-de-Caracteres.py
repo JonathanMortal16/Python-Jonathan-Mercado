@@ -16,7 +16,7 @@ print("Y yo pense, 'Actulicen la biblia'")
 nombre_c = input("\nEscribe el nombre de tu artista favorito\n")
 print(f"Entonces tu artista favorito es {nombre_c}?, es mejor Junior H")
 
-#Metodos de string
+#Metodos de string se usa "nombre de la variable"."nombre del metodo"()
 frase = input("\nDime una frase\n")
 frase_pm = frase.capitalize()   #Convierte la primera letra en mayuscula
 frase_tm = frase.upper()        #Conviete todas las letras en mayuscula
